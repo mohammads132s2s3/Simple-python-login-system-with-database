@@ -2,7 +2,6 @@ import sqlite3
 
 conn = sqlite3.connect('users.db')
 cursor = conn.cursor()
-
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -11,7 +10,6 @@ CREATE TABLE IF NOT EXISTS users (
 )
 ''')
 conn.commit()
-
 def register():
     username = input("Choose a username: ")
     password = input("Choose a password: ")
@@ -34,7 +32,6 @@ def login():
         print("Login successful!")
     else:
         print("Invalid username or password.")
-
 def main():
     while True:
         print("\n1. Register")
@@ -50,7 +47,6 @@ def main():
             break
         else:
             print("Invalid option!")
-
 # Run the program
 if __name__ == "__main__":
     main()
