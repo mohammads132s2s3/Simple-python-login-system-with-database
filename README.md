@@ -28,11 +28,3 @@ Select option 1 to register a new user
 Select option 2 to login an existing user
 
 Select option 3 to exit the program
-#Database Structure
-The program automatically creates a database file named users.db with the following table:
-
-CREATE TABLE users (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    username TEXT NOT NULL UNIQUE,
-    password TEXT NOT NULL
-)
