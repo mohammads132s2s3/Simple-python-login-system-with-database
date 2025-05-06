@@ -49,12 +49,6 @@ A basic Python project that allows user registration and login using SQLite as t
 
 ---
 
-## 📸 Demo
-
-*(Add a screenshot or GIF here if you like)*
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License.
