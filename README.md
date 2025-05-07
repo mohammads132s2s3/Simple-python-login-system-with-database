@@ -40,7 +40,9 @@ A basic Python project that allows user registration and login using SQLite as t
    2. Login
    3. Exit
    ```
-
+---
+##📸 ![APP Screenshot](screenshot.png)
+<=Screenshot=>
 ---
 
 ## 📁 File Structure
