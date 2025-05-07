@@ -41,7 +41,8 @@ A basic Python project that allows user registration and login using SQLite as t
    3. Exit
    ```
 ---
-##📸 ![APP Screenshot](screenshot.png)
+##📸 Screenshot
+![APP Screenshot](screenshot.png)
 <=Screenshot=>
 ---
 
